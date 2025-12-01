@@ -1,0 +1,28 @@
+# Core Dependencies
+pydantic>=2.0.0
+pydantic-ai>=0.0.1
+
+# Google Gemini
+google-generativeai>=0.3.0
+
+# Vector Store
+chromadb>=0.4.0
+
+# Async Support
+asyncio
+
+# Testing
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Type Checking
+mypy>=1.0.0
+
+# Development
+black>=23.0.0
+ruff>=0.1.0
+
+# Optional: Document Processing
+# pypdf>=3.0.0
+# python-docx>=0.8.11
+# markdown>=3.4.0
