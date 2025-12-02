@@ -1,0 +1,25 @@
+{
+  "gemini_api_key": "",
+  "model": "gemini-1.5-flash",
+  "max_papers": 10,
+  "servers": [
+    {
+      "name": "papers",
+      "command": "python",
+      "args": ["servers/papers_server.py"],
+      "enabled": true
+    },
+    {
+      "name": "web",
+      "command": "python",
+      "args": ["servers/web_server.py"],
+      "enabled": true
+    },
+    {
+      "name": "notes",
+      "command": "python",
+      "args": ["servers/notes_server.py"],
+      "enabled": true
+    }
+  ]
+}
